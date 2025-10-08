@@ -137,6 +137,15 @@ footer nav ul li {
     margin: auto;
 }
 
+.div-logo, img
+{
+
+    width: auto;
+max-width: 15rem;
+    height: auto;
+    max-height: auto;
+}
+
 .grupo-input input,
 .grupo-input textarea {
     width: 100%;
