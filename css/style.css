@@ -99,7 +99,6 @@ footer nav ul li {
 
 }
 .productos-container {
-
   display: flex;
   grid-template-columns: repeat(3, 1fr); /* máximo 3 por fila */
   gap: 20px; /* espacio entre productos */
@@ -112,6 +111,7 @@ footer nav ul li {
 
 .tarjeta-producto{
     display: flex;
+    flex-direction: column;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 0.5rem;
