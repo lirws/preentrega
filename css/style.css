@@ -99,12 +99,15 @@ footer nav ul li {
 
 }
 .productos-container {
-  display: grid;
+
+  display: flex;
   grid-template-columns: repeat(3, 1fr); /* máximo 3 por fila */
   gap: 20px; /* espacio entre productos */
   max-width: 1200px;
   margin: 0 auto;
   padding: 10px;
+  flex-wrap: wrap; */
+    justify-content: center;
 }
 
 .tarjeta-producto{
