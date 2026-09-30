@@ -212,3 +212,29 @@ button:focus-visible{
         width: 100%;
     }
 }
+
+.carrito{
+    color: inherit;
+    text-decoration: none;
+}
+.carrito-contenido{
+    width: 100%;
+    max-width: 50rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+.tabla-carrito{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    margin-bottom: 1rem;
+}
+.tabla-carrito th,
+.tabla-carrito td{
+    padding: 0.7rem;
+    border-bottom: 1px solid #ddd;
+}
+.total{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
