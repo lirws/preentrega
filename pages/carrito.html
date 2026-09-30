@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Tienda en línea de productos importados de alta calidad.">
-    <title>Contacto - Productos Importados</title>
+    <title>Carrito - Productos Importados</title>
    <link rel="stylesheet" href="../css/style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -26,26 +26,18 @@
 </header>
 
 <main>
-    <h1>Contacto</h1>
-    <p>Dejanos tu consulta, respondemos en el día</p>
-<form
-  action="https://formspree.io/f/xkgvzvna"
-  method="POST"
-  class="form-contacto">
-<div class="grupo-input">
-  <label>
-    Correo Electrónico:
-    <input type="email" name="email" required>
-  </label>
-</div>
-<div class="grupo-input">
-  <label>
-    Mensaje:
-    <textarea name="message" rows="6" required></textarea>
-  </label>
-  </div>
-    <button type="submit">Enviar</button>
-</form>
+    <h1>Tu carrito</h1>
+    <p id="carrito-vacio" hidden>Tu carrito está vacío. <a href="../index.html">Ver productos</a></p>
+    <section id="carrito-contenido" class="carrito-contenido" hidden>
+        <table class="tabla-carrito">
+            <thead>
+                <tr><th>Producto</th><th>Precio</th><th>Cantidad</th><th>Subtotal</th><th></th></tr>
+            </thead>
+            <tbody id="lista-carrito"></tbody>
+        </table>
+        <p class="total">Total: <strong id="total-carrito">$0</strong></p>
+        <button type="button" id="vaciar-carrito">Vaciar carrito</button>
+    </section>
 </main>
 
 <footer>
