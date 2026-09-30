@@ -195,3 +195,20 @@ button:hover,
 button:focus-visible{
     background-color: #000;
 }
+
+.carrito{
+    display: inline-block;
+    padding: 1rem;
+}
+@media(max-width: 768px){
+    .div-logo{
+        display: block;
+    }
+    .header-nav ul{
+        flex-wrap: wrap;
+        gap: 0;
+    }
+    .form-contacto{
+        width: 100%;
+    }
+}
